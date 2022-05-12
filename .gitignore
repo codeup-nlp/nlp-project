@@ -7,5 +7,9 @@ __pycache__/
 # Github limits push  to under 100MB
 *.csvenv.py
 env.py
+<<<<<<< HEAD
 
 data.json
+=======
+data.json
+>>>>>>> b3def31485839d4f77718e9de15067a86b84fa46

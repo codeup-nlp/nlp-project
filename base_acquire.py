@@ -25,9 +25,72 @@ from env import github_token, github_username
 # TODO: Add more repositories to the `REPOS` list below.
 
 REPOS = [
+<<<<<<< HEAD
+    "ccxt/ccxt",
+"openssl/openssl",
+"HelloZeroNet/ZeroNet",
+"freqtrade/freqtrade",
+"amark/gun",
+"brix/crypto-js",
+"google/tink",
+"jedisct1/libsodium",
+"krzyzanowskim/CryptoSwift",
+"cryptomator/cryptomator",
+"bitwiseshiftleft/sjcl",
+"ctf-wiki/ctf-wiki",
+"StockSharp/StockSharp",
+"pyca/cryptography",
+"digitalbazaar/forge",
+"aws/s2n-tls",
+"hummingbot/hummingbot",
+"google/end-to-end",
+"PrivateBin/PrivateBin",
+"CryptoSignal/Crypto-Signal",
+"jesse-ai/jesse",
+"trustwallet/assets",
+"Mbed-TLS/mbedtls",
+"bitpay/wallet",
+"Haehnchen/crypto-trading-bot"
+=======
     "gocodeup/codeup-setup-script",
     "gocodeup/movies-application",
     "torvalds/linux",
+# --------Craig
+    
+    
+# --------Braeden
+    
+    
+# --------Mathias
+"NeuromatchAcademy/course-content",
+"asoplata/open-computational-neuroscience-resources",
+"translationalneuromodeling/tapas",
+"eselkin/awesome-computational-neuroscience",
+"computational-neuroscience/Computational-Neuroscience-UW",
+"neurolib-dev/neurolib",
+"simetenn/uncertainpy",
+"CompCogNeuro/sims",
+"compmem/compsy",
+"conorhoughton/COMS30127",
+"ashumeow/Computational-NeuroScience",
+"kuz/Computational-Neuroscience-Course",
+"INCF/neuroshapes",
+"CompCogNeuro/ed4",
+"alisharifi2000/CS-SBU-ComputationalNeuroScience2021-projects",
+"zifeo/EPFL",
+"robclewley/compneuro",
+"btel/python-in-neuroscience-tutorials",
+"neurodebian/neurodebian",
+"alfredcai/Coursera-Computational-NeuroScience",
+"neurodata/brainlit",
+"patrickmineault/xcorr-notebooks",
+"ITNG/ModelingNeuralDynamics",
+"neuronstar/spiking-neuron-models",
+"rougier/Neurosciences"   
+    
+# --------Stephen 
+    
+>>>>>>> f11e760a5d3bf73f71b842a883783566d88e1440
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}

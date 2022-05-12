@@ -44,8 +44,7 @@ REPOS = ["NeuromatchAcademy/course-content",
 "patrickmineault/xcorr-notebooks",
 "ITNG/ModelingNeuralDynamics",
 "neuronstar/spiking-neuron-models",
-"rougier/Neurosciences"
-]
+"rougier/Neurosciences"]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
 
