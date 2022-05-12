@@ -38,7 +38,31 @@ REPOS = [
     
     
 # --------Stephen 
-    
+    "ossu/computer-science",
+    "hyperledger-archives/education-cryptomoji ",
+    "DataONEorg/Education",
+    "data-edu/data-science-in-education",
+    "yrgo/awesome-educational-games", 
+    "AgoraIO-Usecase/eEducation",
+    "WikiEducationFoundation/WikiEduDashboard",
+    "puppetlabs/education-builds",
+    "sugarlabs/musicblocks",
+    "microsoft/Web-Dev-For-Beginners",
+    "jakemdrew/EducationDataNC",
+    "shama/letswritecode",
+    "ossu/math",
+    "CTFd/CTFd",
+    "anton-liauchuk/educational-platform",
+    "Akshima-Ghai/OneEducationalWebsiteForAll",
+    "llSourcell/Watch-Me-Build-an-Education-Startup",
+    "tecladocode/rest-apis-flask-python",
+    "psi4/psi4numpy",
+    "unstructuredstudio/zubhub",
+    "zero-to-mastery/start-here-guidelines",
+    "getify/Functional-Light-JS",
+    "arschles/go-in-5-minutes",
+    "mikesprague/udacity-nanodegrees",
+    "microsoft/Industry-Accelerator-Education"   
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
