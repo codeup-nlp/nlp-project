@@ -25,9 +25,31 @@ from env import github_token, github_username
 # TODO: Add more repositories to the `REPOS` list below.
 
 REPOS = [
-    "gocodeup/codeup-setup-script",
-    "gocodeup/movies-application",
-    "torvalds/linux",
+    "ccxt/ccxt",
+"openssl/openssl",
+"HelloZeroNet/ZeroNet",
+"freqtrade/freqtrade",
+"amark/gun",
+"brix/crypto-js",
+"google/tink",
+"jedisct1/libsodium",
+"krzyzanowskim/CryptoSwift",
+"cryptomator/cryptomator",
+"bitwiseshiftleft/sjcl",
+"ctf-wiki/ctf-wiki",
+"StockSharp/StockSharp",
+"pyca/cryptography",
+"digitalbazaar/forge",
+"aws/s2n-tls",
+"hummingbot/hummingbot",
+"google/end-to-end",
+"PrivateBin/PrivateBin",
+"CryptoSignal/Crypto-Signal",
+"jesse-ai/jesse",
+"trustwallet/assets",
+"Mbed-TLS/mbedtls",
+"bitpay/wallet",
+"Haehnchen/crypto-trading-bot"
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
