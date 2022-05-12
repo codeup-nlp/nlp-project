@@ -1,13 +1,9 @@
 """
 A module for obtaining repo readme and language data from the github API.
-
 Before using this module, read through it, and follow the instructions marked
 TODO.
-
 After doing so, run it like this:
-
     python acquire.py
-
 To create the `data.json` file that contains the data.
 """
 import os
@@ -24,45 +20,7 @@ from env import github_token, github_username
 # TODO: Add your github username to your env.py file under the variable `github_username`
 # TODO: Add more repositories to the `REPOS` list below.
 
-REPOS = [
-<<<<<<< HEAD
-    "ccxt/ccxt",
-"openssl/openssl",
-"HelloZeroNet/ZeroNet",
-"freqtrade/freqtrade",
-"amark/gun",
-"brix/crypto-js",
-"google/tink",
-"jedisct1/libsodium",
-"krzyzanowskim/CryptoSwift",
-"cryptomator/cryptomator",
-"bitwiseshiftleft/sjcl",
-"ctf-wiki/ctf-wiki",
-"StockSharp/StockSharp",
-"pyca/cryptography",
-"digitalbazaar/forge",
-"aws/s2n-tls",
-"hummingbot/hummingbot",
-"google/end-to-end",
-"PrivateBin/PrivateBin",
-"CryptoSignal/Crypto-Signal",
-"jesse-ai/jesse",
-"trustwallet/assets",
-"Mbed-TLS/mbedtls",
-"bitpay/wallet",
-"Haehnchen/crypto-trading-bot"
-=======
-    "gocodeup/codeup-setup-script",
-    "gocodeup/movies-application",
-    "torvalds/linux",
-# --------Craig
-    
-    
-# --------Braeden
-    
-    
-# --------Mathias
-"NeuromatchAcademy/course-content",
+REPOS = ["NeuromatchAcademy/course-content",
 "asoplata/open-computational-neuroscience-resources",
 "translationalneuromodeling/tapas",
 "eselkin/awesome-computational-neuroscience",
@@ -86,40 +44,7 @@ REPOS = [
 "patrickmineault/xcorr-notebooks",
 "ITNG/ModelingNeuralDynamics",
 "neuronstar/spiking-neuron-models",
-"rougier/Neurosciences"   
-    
-# --------Stephen 
-<<<<<<< HEAD
-    "ossu/computer-science",
-    "hyperledger-archives/education-cryptomoji ",
-    "DataONEorg/Education",
-    "data-edu/data-science-in-education",
-    "yrgo/awesome-educational-games", 
-    "AgoraIO-Usecase/eEducation",
-    "WikiEducationFoundation/WikiEduDashboard",
-    "puppetlabs/education-builds",
-    "sugarlabs/musicblocks",
-    "microsoft/Web-Dev-For-Beginners",
-    "jakemdrew/EducationDataNC",
-    "shama/letswritecode",
-    "ossu/math",
-    "CTFd/CTFd",
-    "anton-liauchuk/educational-platform",
-    "Akshima-Ghai/OneEducationalWebsiteForAll",
-    "llSourcell/Watch-Me-Build-an-Education-Startup",
-    "tecladocode/rest-apis-flask-python",
-    "psi4/psi4numpy",
-    "unstructuredstudio/zubhub",
-    "zero-to-mastery/start-here-guidelines",
-    "getify/Functional-Light-JS",
-    "arschles/go-in-5-minutes",
-    "mikesprague/udacity-nanodegrees",
-    "microsoft/Industry-Accelerator-Education"   
-=======
-    
->>>>>>> f11e760a5d3bf73f71b842a883783566d88e1440
->>>>>>> ab57472ad0fefee907a2644eef4676412873ff6f
-]
+"rougier/Neurosciences"]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
 
