@@ -103,9 +103,17 @@ REPOS = [
 "CNS-OIST/a310_cns_2018",
 "rougier/Neurosciences",
 
+<<<<<<< HEAD
 "hyperledger-archives/education-cryptomoji",
 "DataONEorg/Education",
 "data-edu/data-science-in-education",
+=======
+"bitcoin/bitcoin",
+"hyperledger-archives/education-cryptomoji",
+"DataONEorg/Education",
+"data-edu/data-science-in-education",
+"tesseract-ocr/tesseract", 
+>>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
 "AgoraIO-Usecase/eEducation",
 "WikiEducationFoundation/WikiEduDashboard",
 "puppetlabs/education-builds",
@@ -113,6 +121,10 @@ REPOS = [
 "microsoft/Web-Dev-For-Beginners",
 "jakemdrew/EducationDataNC",
 "shama/letswritecode",
+<<<<<<< HEAD
+=======
+"netdata/netdata",
+>>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
 "CTFd/CTFd",
 "anton-liauchuk/educational-platform",
 "Akshima-Ghai/OneEducationalWebsiteForAll",
@@ -123,11 +135,41 @@ REPOS = [
 "zero-to-mastery/start-here-guidelines",
 "getify/Functional-Light-JS",
 "arschles/go-in-5-minutes",
+<<<<<<< HEAD
 "microsoft/CyberBattleSim",
 "mitre-attack/car",
 "eth0izzle/bucket-stream", 
 "cybercommons/cybercom-cookiecutter",
 "state-hiu/cybergis-scripts",
+=======
+"microsoft/PowerToys",
+"ReactiveX/RxJava",
+"kdn251/interviews",
+"web-sys1/ActionData",
+"rvaughan/coronavirus-data",
+"weareblahs/covidcases",
+"covid19-eu-zh/covid19-eu-data",
+"ercbk/Indiana-COVIDcast-Dashboard",
+"ercbk/Indiana-COVID-19-Website",
+"RamiKrispin/coronavirus",
+"covidatlas/coronadatascraper",
+"minvws/nl-covid19-notification-app-website",
+"BustByte/coronastatus",
+"tomwhite/covid-19-uk-data",
+"vinitshahdeo/Water-Monitoring-System",
+"labnol/covid19-vaccine-tracker",
+
+"google/googletest",
+"apache/incubator-doris",
+"fmtlib/fmt",
+"opencv/opencv",
+"microsoft/calculator",
+"microsoft/winget-cli",
+"IntelLabs/control-flag",
+"onnx/onnx",
+"catchorg/Catch2",
+"facebook/folly"
+>>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
@@ -142,6 +184,7 @@ def github_api_request(url: str) -> Union[List, Dict]:
     response = requests.get(url, headers=headers)
     response_data = response.json()
     if response.status_code != 200:
+        print(url)
         raise Exception(
             f"Error response from github api! status code: {response.status_code}, "
             f"response: {json.dumps(response_data)}"
