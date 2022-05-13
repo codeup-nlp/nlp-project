@@ -50,11 +50,10 @@ REPOS = [
 "Mbed-TLS/mbedtls",
 "bitpay/wallet",
 "Haehnchen/crypto-trading-bot",
-
-'NASAWorldWind/WebWorldWind', 
+"NASAWorldWind/WebWorldWind", 
 'r-spacex/SpaceX-API', 
 'nasa/fprime', 
-'NASAWorldWind/WorldWindJava ', 
+"NASAWorldWind/WorldWindJava", 
 'nasa-gibs/worldview', 
 'nasa/apod-api', 
 'chrislgarry/Apollo-11', 
@@ -68,15 +67,14 @@ REPOS = [
 'NASAWorldWind/WorldWindAndroid', 
 'spaceship-prompt/spaceship-prompt', 
 'rt-bishop/Look4Sat', 
-'nasa-jpl/COVID-19-respirators ', 
+'nasa-jpl/COVID-19-respirators', 
 'jakiestfu/himawari.js', 
 'orbitalindex/awesome-space', 
 'CelestiaProject/Celestia', 
 'trehn/termtrack', 
-'barrosfilipe/Rocket-Lab-API ', 
+'barrosfilipe/Rocket-Lab-API', 
 'Trinitui/Rocket-Lab-API-Reborn', 
 'Onnamission/SpaceX-Analytics',   
-
 "NeuromatchAcademy/course-content",
 "asoplata/open-computational-neuroscience-resources",
 "translationalneuromodeling/tapas",
@@ -102,9 +100,8 @@ REPOS = [
 "ITNG/ModelingNeuralDynamics",
 "neuronstar/spiking-neuron-models",
 "rougier/Neurosciences",     
-
 "ossu/computer-science",
-"hyperledger-archives/education-cryptomoji ",
+"hyperledger-archives/education-cryptomoji",
 "DataONEorg/Education",
 "data-edu/data-science-in-education",
 "yrgo/awesome-educational-games", 
@@ -127,7 +124,7 @@ REPOS = [
 "getify/Functional-Light-JS",
 "arschles/go-in-5-minutes",
 "mikesprague/udacity-nanodegrees",
-"microsoft/Industry-Accelerator-Education"   
+"microsoft/Industry-Accelerator-Education",
 "NeuromatchAcademy/course-content",
 "cnrl/cns-project-template",
 "translationalneuromodeling/tapas",
@@ -167,6 +164,7 @@ def github_api_request(url: str) -> Union[List, Dict]:
     response = requests.get(url, headers=headers)
     response_data = response.json()
     if response.status_code != 200:
+        print(url)
         raise Exception(
             f"Error response from github api! status code: {response.status_code}, "
             f"response: {json.dumps(response_data)}"
