@@ -149,7 +149,17 @@ REPOS = [
 "patrickmineault/xcorr-notebooks",
 "ITNG/ModelingNeuralDynamics",
 "CNS-OIST/a310_cns_2018",
-"rougier/Neurosciences"
+"rougier/Neurosciences",
+"web-sys1/ActionData",
+"rvaughan/coronavirus-data",
+"weareblahs/covidcases",
+"covid19-eu-zh/covid19-eu-data",
+"ercbk/Indiana-COVIDcast-Dashboard",
+"ercbk/Indiana-COVID-19-Website",
+"RamiKrispin/coronavirus",
+"covidatlas/coronadatascraper",
+"minvws/nl-covid19-notification-app-website",
+"ustByte/coronastatus"
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
