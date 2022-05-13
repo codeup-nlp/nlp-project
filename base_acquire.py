@@ -141,7 +141,18 @@ REPOS = [
 "BustByte/coronastatus",
 "tomwhite/covid-19-uk-data",
 "vinitshahdeo/Water-Monitoring-System",
-"labnol/covid19-vaccine-tracker"
+"labnol/covid19-vaccine-tracker",
+
+"google/googletest",
+"apache/incubator-doris",
+"fmtlib/fmt",
+"opencv/opencv",
+"microsoft/calculator",
+"microsoft/winget-cli",
+"IntelLabs/control-flag",
+"onnx/onnx",
+"catchorg/Catch2",
+"facebook/folly"
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
