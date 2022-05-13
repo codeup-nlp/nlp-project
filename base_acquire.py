@@ -128,7 +128,7 @@ REPOS = [
 "arschles/go-in-5-minutes",
 "microsoft/PowerToys",
 "ReactiveX/RxJava",
-"kdn251/interviews"
+"kdn251/interviews",
 "web-sys1/ActionData",
 "rvaughan/coronavirus-data",
 "weareblahs/covidcases",
