@@ -59,7 +59,31 @@ REPOS = [
     
     
 # --------Braeden
-    
+ ['NASAWorldWind/WebWorldWind', 
+         'r-spacex/SpaceX-API', 
+         'nasa/fprime', 
+         'NASAWorldWind/WorldWindJava ', 
+         'nasa-gibs/worldview', 
+         'nasa/apod-api', 
+         'chrislgarry/Apollo-11', 
+         'nasa/NASA-3D-Resources', 
+         'nasa/astrobee', 
+         'bloominstituteoftechnology/nasa-photo-of-the-day', 
+         'nasa/Open-Source-Catalog', 
+         'nasa/CrisisMappingToolkit', 
+         'nasa/code-nasa-gov', 
+         'nasa/earthdata-search', 
+         'NASAWorldWind/WorldWindAndroid', 
+         'spaceship-prompt/spaceship-prompt', 
+         'rt-bishop/Look4Sat', 
+         'nasa-jpl/COVID-19-respirators ', 
+         'jakiestfu/himawari.js', 
+         'orbitalindex/awesome-space', 
+         'CelestiaProject/Celestia', 
+         'trehn/termtrack', 
+         'barrosfilipe/Rocket-Lab-API ', 
+         'Trinitui/Rocket-Lab-API-Reborn', 
+         'Onnamission/SpaceX-Analytics']   
     
 # --------Mathias
 "NeuromatchAcademy/course-content",
