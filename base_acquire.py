@@ -100,11 +100,9 @@ REPOS = [
 "ITNG/ModelingNeuralDynamics",
 "neuronstar/spiking-neuron-models",
 "rougier/Neurosciences",     
-"ossu/computer-science",
 "hyperledger-archives/education-cryptomoji",
 "DataONEorg/Education",
 "data-edu/data-science-in-education",
-"yrgo/awesome-educational-games", 
 "AgoraIO-Usecase/eEducation",
 "WikiEducationFoundation/WikiEduDashboard",
 "puppetlabs/education-builds",
@@ -112,7 +110,6 @@ REPOS = [
 "microsoft/Web-Dev-For-Beginners",
 "jakemdrew/EducationDataNC",
 "shama/letswritecode",
-"ossu/math",
 "CTFd/CTFd",
 "anton-liauchuk/educational-platform",
 "Akshima-Ghai/OneEducationalWebsiteForAll",
@@ -123,8 +120,6 @@ REPOS = [
 "zero-to-mastery/start-here-guidelines",
 "getify/Functional-Light-JS",
 "arschles/go-in-5-minutes",
-"mikesprague/udacity-nanodegrees",
-"microsoft/Industry-Accelerator-Education",   
 "NeuromatchAcademy/course-content",
 "cnrl/cns-project-template",
 "translationalneuromodeling/tapas",
@@ -149,7 +144,13 @@ REPOS = [
 "patrickmineault/xcorr-notebooks",
 "ITNG/ModelingNeuralDynamics",
 "CNS-OIST/a310_cns_2018",
-"rougier/Neurosciences"
+"rougier/Neurosciences", 
+    
+"microsoft/CyberBattleSim",
+"mitre-attack/car",
+"eth0izzle/bucket-stream",
+"cybercommons/cybercom-cookiecutter",
+"state-hiu/cybergis-scripts"
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
