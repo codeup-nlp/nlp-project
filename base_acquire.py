@@ -50,6 +50,7 @@ REPOS = [
 "Mbed-TLS/mbedtls",
 "bitpay/wallet",
 "Haehnchen/crypto-trading-bot",
+
 "NASAWorldWind/WebWorldWind", 
 "r-spacex/SpaceX-API", 
 "nasa/fprime", 
@@ -75,10 +76,11 @@ REPOS = [
 "barrosfilipe/Rocket-Lab-API", 
 "Trinitui/Rocket-Lab-API-Reborn", 
 "Onnamission/SpaceX-Analytics", 
+
 "NeuromatchAcademy/course-content",
-"asoplata/open-computational-neuroscience-resources",
+"cnrl/cns-project-template",
 "translationalneuromodeling/tapas",
-"eselkin/awesome-computational-neuroscience",
+"ContextLab/computational-neuroscience",
 "computational-neuroscience/Computational-Neuroscience-UW",
 "neurolib-dev/neurolib",
 "simetenn/uncertainpy",
@@ -90,7 +92,7 @@ REPOS = [
 "INCF/neuroshapes",
 "CompCogNeuro/ed4",
 "alisharifi2000/CS-SBU-ComputationalNeuroScience2021-projects",
-"zifeo/EPFL",
+"karnigili/Computational-Neuroscience",
 "robclewley/compneuro",
 "btel/python-in-neuroscience-tutorials",
 "neurodebian/neurodebian",
@@ -98,11 +100,22 @@ REPOS = [
 "neurodata/brainlit",
 "patrickmineault/xcorr-notebooks",
 "ITNG/ModelingNeuralDynamics",
+<<<<<<< HEAD
 "neuronstar/spiking-neuron-models",
 "rougier/Neurosciences",     
 "hyperledger-archives/education-cryptomoji",
 "DataONEorg/Education",
 "data-edu/data-science-in-education",
+=======
+"CNS-OIST/a310_cns_2018",
+"rougier/Neurosciences",
+
+"bitcoin/bitcoin",
+"hyperledger-archives/education-cryptomoji",
+"DataONEorg/Education",
+"data-edu/data-science-in-education",
+"tesseract-ocr/tesseract", 
+>>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
 "AgoraIO-Usecase/eEducation",
 "WikiEducationFoundation/WikiEduDashboard",
 "puppetlabs/education-builds",
@@ -110,6 +123,10 @@ REPOS = [
 "microsoft/Web-Dev-For-Beginners",
 "jakemdrew/EducationDataNC",
 "shama/letswritecode",
+<<<<<<< HEAD
+=======
+"netdata/netdata",
+>>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
 "CTFd/CTFd",
 "anton-liauchuk/educational-platform",
 "Akshima-Ghai/OneEducationalWebsiteForAll",
@@ -120,6 +137,7 @@ REPOS = [
 "zero-to-mastery/start-here-guidelines",
 "getify/Functional-Light-JS",
 "arschles/go-in-5-minutes",
+<<<<<<< HEAD
 "NeuromatchAcademy/course-content",
 "cnrl/cns-project-template",
 "translationalneuromodeling/tapas",
@@ -151,6 +169,35 @@ REPOS = [
 "eth0izzle/bucket-stream",
 "cybercommons/cybercom-cookiecutter",
 "state-hiu/cybergis-scripts"
+=======
+"microsoft/PowerToys",
+"ReactiveX/RxJava",
+"kdn251/interviews",
+"web-sys1/ActionData",
+"rvaughan/coronavirus-data",
+"weareblahs/covidcases",
+"covid19-eu-zh/covid19-eu-data",
+"ercbk/Indiana-COVIDcast-Dashboard",
+"ercbk/Indiana-COVID-19-Website",
+"RamiKrispin/coronavirus",
+"covidatlas/coronadatascraper",
+"minvws/nl-covid19-notification-app-website",
+"BustByte/coronastatus",
+"tomwhite/covid-19-uk-data",
+"vinitshahdeo/Water-Monitoring-System",
+"labnol/covid19-vaccine-tracker",
+
+"google/googletest",
+"apache/incubator-doris",
+"fmtlib/fmt",
+"opencv/opencv",
+"microsoft/calculator",
+"microsoft/winget-cli",
+"IntelLabs/control-flag",
+"onnx/onnx",
+"catchorg/Catch2",
+"facebook/folly"
+>>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
@@ -165,6 +212,7 @@ def github_api_request(url: str) -> Union[List, Dict]:
     response = requests.get(url, headers=headers)
     response_data = response.json()
     if response.status_code != 200:
+        print(url)
         raise Exception(
             f"Error response from github api! status code: {response.status_code}, "
             f"response: {json.dumps(response_data)}"
