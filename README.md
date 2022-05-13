@@ -1,12 +1,22 @@
 # Project Goal
 ----------------------------------
 
-
+**For this project we are building a model that can predict the main programming language of a repository, given the text of the README file. We will use 100 different README files from repositories available on GitHub, and use Natural Language Processing on the text within to build our model.**
 
 
 
 # Initial Questions
 ---------------------------------
+
+- one
+
+- two
+
+- three
+
+- four
+
+- five?
 
 
 # Project Planning
