@@ -8,16 +8,13 @@
 # Initial Questions
 ---------------------------------
 
-- one
+- What are the most common words in READMEs?
 
-- two
+- Does the length of the README vary by programming language?
 
-- three
+- Do different programming languages use a different number of unique words?
 
-- four
-
-- five?
-
+- Are there any words that uniquely identify a programming language?
 
 # Project Planning
 ---------------------------------
