@@ -21,9 +21,9 @@ from env import github_token, github_username
 # TODO: Add more repositories to the `REPOS` list below.
 
 REPOS = ["NeuromatchAcademy/course-content",
-"asoplata/open-computational-neuroscience-resources",
+"cnrl/cns-project-template",
 "translationalneuromodeling/tapas",
-"eselkin/awesome-computational-neuroscience",
+"ContextLab/computational-neuroscience",
 "computational-neuroscience/Computational-Neuroscience-UW",
 "neurolib-dev/neurolib",
 "simetenn/uncertainpy",
@@ -35,7 +35,7 @@ REPOS = ["NeuromatchAcademy/course-content",
 "INCF/neuroshapes",
 "CompCogNeuro/ed4",
 "alisharifi2000/CS-SBU-ComputationalNeuroScience2021-projects",
-"zifeo/EPFL",
+"karnigili/Computational-Neuroscience",
 "robclewley/compneuro",
 "btel/python-in-neuroscience-tutorials",
 "neurodebian/neurodebian",
@@ -43,7 +43,7 @@ REPOS = ["NeuromatchAcademy/course-content",
 "neurodata/brainlit",
 "patrickmineault/xcorr-notebooks",
 "ITNG/ModelingNeuralDynamics",
-"neuronstar/spiking-neuron-models",
+"CNS-OIST/a310_cns_2018",
 "rougier/Neurosciences"]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}

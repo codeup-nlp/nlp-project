@@ -25,6 +25,7 @@ from env import github_token, github_username
 # TODO: Add more repositories to the `REPOS` list below.
 
 REPOS = [
+<<<<<<< HEAD
         "ccxt/ccxt",
         "openssl/openssl",
         "HelloZeroNet/ZeroNet",
@@ -54,13 +55,70 @@ REPOS = [
         "gocodeup/codeup-setup-script",
         "gocodeup/movies-application",
         "torvalds/linux",
+=======
+<<<<<<< HEAD
+    "ccxt/ccxt",
+"openssl/openssl",
+"HelloZeroNet/ZeroNet",
+"freqtrade/freqtrade",
+"amark/gun",
+"brix/crypto-js",
+"google/tink",
+"jedisct1/libsodium",
+"krzyzanowskim/CryptoSwift",
+"cryptomator/cryptomator",
+"bitwiseshiftleft/sjcl",
+"ctf-wiki/ctf-wiki",
+"StockSharp/StockSharp",
+"pyca/cryptography",
+"digitalbazaar/forge",
+"aws/s2n-tls",
+"hummingbot/hummingbot",
+"google/end-to-end",
+"PrivateBin/PrivateBin",
+"CryptoSignal/Crypto-Signal",
+"jesse-ai/jesse",
+"trustwallet/assets",
+"Mbed-TLS/mbedtls",
+"bitpay/wallet",
+"Haehnchen/crypto-trading-bot"
+=======
+    "gocodeup/codeup-setup-script",
+    "gocodeup/movies-application",
+    "torvalds/linux",
+>>>>>>> 7d3d7c84c2531478a1107da62f307aa4a9092bfc
 # --------Craig
     
     
 # --------Braeden
-    
+ ['NASAWorldWind/WebWorldWind', 
+         'r-spacex/SpaceX-API', 
+         'nasa/fprime', 
+         'NASAWorldWind/WorldWindJava ', 
+         'nasa-gibs/worldview', 
+         'nasa/apod-api', 
+         'chrislgarry/Apollo-11', 
+         'nasa/NASA-3D-Resources', 
+         'nasa/astrobee', 
+         'bloominstituteoftechnology/nasa-photo-of-the-day', 
+         'nasa/Open-Source-Catalog', 
+         'nasa/CrisisMappingToolkit', 
+         'nasa/code-nasa-gov', 
+         'nasa/earthdata-search', 
+         'NASAWorldWind/WorldWindAndroid', 
+         'spaceship-prompt/spaceship-prompt', 
+         'rt-bishop/Look4Sat', 
+         'nasa-jpl/COVID-19-respirators ', 
+         'jakiestfu/himawari.js', 
+         'orbitalindex/awesome-space', 
+         'CelestiaProject/Celestia', 
+         'trehn/termtrack', 
+         'barrosfilipe/Rocket-Lab-API ', 
+         'Trinitui/Rocket-Lab-API-Reborn', 
+         'Onnamission/SpaceX-Analytics']   
     
 # --------Mathias
+<<<<<<< HEAD
         "NeuromatchAcademy/course-content",
         "asoplata/open-computational-neuroscience-resources",
         "translationalneuromodeling/tapas",
@@ -116,6 +174,37 @@ REPOS = [
     
 # >>>>>>> f11e760a5d3bf73f71b842a883783566d88e1440
 # >>>>>>> ab57472ad0fefee907a2644eef4676412873ff6f
+=======
+"NeuromatchAcademy/course-content",
+"cnrl/cns-project-template",
+"translationalneuromodeling/tapas",
+"ContextLab/computational-neuroscience",
+"computational-neuroscience/Computational-Neuroscience-UW",
+"neurolib-dev/neurolib",
+"simetenn/uncertainpy",
+"CompCogNeuro/sims",
+"compmem/compsy",
+"conorhoughton/COMS30127",
+"ashumeow/Computational-NeuroScience",
+"kuz/Computational-Neuroscience-Course",
+"INCF/neuroshapes",
+"CompCogNeuro/ed4",
+"alisharifi2000/CS-SBU-ComputationalNeuroScience2021-projects",
+"karnigili/Computational-Neuroscience",
+"robclewley/compneuro",
+"btel/python-in-neuroscience-tutorials",
+"neurodebian/neurodebian",
+"alfredcai/Coursera-Computational-NeuroScience",
+"neurodata/brainlit",
+"patrickmineault/xcorr-notebooks",
+"ITNG/ModelingNeuralDynamics",
+"CNS-OIST/a310_cns_2018",
+"rougier/Neurosciences"
+    
+# --------Stephen 
+    
+>>>>>>> f11e760a5d3bf73f71b842a883783566d88e1440
+>>>>>>> 7d3d7c84c2531478a1107da62f307aa4a9092bfc
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
