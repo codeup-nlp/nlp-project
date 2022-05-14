@@ -121,7 +121,7 @@ def prep_article_data(df, column, extra_words=[], exclude_words=[]):
                                    extra_words=extra_words, 
                                    exclude_words=exclude_words)
     
-    return df[['title', column,'clean', 'stemmed', 'lemmatized']]
+    return df[['language', column,'clean', 'stemmed', 'lemmatized']]
 
 def clean(text: str) -> list:
     'A simple function to cleanup text data'
