@@ -100,14 +100,6 @@ REPOS = [
 "neurodata/brainlit",
 "patrickmineault/xcorr-notebooks",
 "ITNG/ModelingNeuralDynamics",
-<<<<<<< HEAD
-<<<<<<< HEAD
-"neuronstar/spiking-neuron-models",
-"rougier/Neurosciences",     
-"hyperledger-archives/education-cryptomoji",
-"DataONEorg/Education",
-"data-edu/data-science-in-education",
-=======
 "CNS-OIST/a310_cns_2018",
 "rougier/Neurosciences",
 
@@ -116,17 +108,6 @@ REPOS = [
 "DataONEorg/Education",
 "data-edu/data-science-in-education",
 "tesseract-ocr/tesseract", 
->>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
-=======
-"CNS-OIST/a310_cns_2018",
-"rougier/Neurosciences",
-
-"bitcoin/bitcoin",
-"hyperledger-archives/education-cryptomoji",
-"DataONEorg/Education",
-"data-edu/data-science-in-education",
-"tesseract-ocr/tesseract", 
->>>>>>> 40eb7f615516fd432eab991eeb2ee4ee4a4c6b8c
 "AgoraIO-Usecase/eEducation",
 "WikiEducationFoundation/WikiEduDashboard",
 "puppetlabs/education-builds",
@@ -134,14 +115,7 @@ REPOS = [
 "microsoft/Web-Dev-For-Beginners",
 "jakemdrew/EducationDataNC",
 "shama/letswritecode",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 "netdata/netdata",
->>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
-=======
-"netdata/netdata",
->>>>>>> 40eb7f615516fd432eab991eeb2ee4ee4a4c6b8c
 "CTFd/CTFd",
 "anton-liauchuk/educational-platform",
 "Akshima-Ghai/OneEducationalWebsiteForAll",
@@ -152,42 +126,6 @@ REPOS = [
 "zero-to-mastery/start-here-guidelines",
 "getify/Functional-Light-JS",
 "arschles/go-in-5-minutes",
-<<<<<<< HEAD
-<<<<<<< HEAD
-"NeuromatchAcademy/course-content",
-"cnrl/cns-project-template",
-"translationalneuromodeling/tapas",
-"ContextLab/computational-neuroscience",
-"computational-neuroscience/Computational-Neuroscience-UW",
-"neurolib-dev/neurolib",
-"simetenn/uncertainpy",
-"CompCogNeuro/sims",
-"compmem/compsy",
-"conorhoughton/COMS30127",
-"ashumeow/Computational-NeuroScience",
-"kuz/Computational-Neuroscience-Course",
-"INCF/neuroshapes",
-"CompCogNeuro/ed4",
-"alisharifi2000/CS-SBU-ComputationalNeuroScience2021-projects",
-"karnigili/Computational-Neuroscience",
-"robclewley/compneuro",
-"btel/python-in-neuroscience-tutorials",
-"neurodebian/neurodebian",
-"alfredcai/Coursera-Computational-NeuroScience",
-"neurodata/brainlit",
-"patrickmineault/xcorr-notebooks",
-"ITNG/ModelingNeuralDynamics",
-"CNS-OIST/a310_cns_2018",
-"rougier/Neurosciences", 
-    
-"microsoft/CyberBattleSim",
-"mitre-attack/car",
-"eth0izzle/bucket-stream",
-"cybercommons/cybercom-cookiecutter",
-"state-hiu/cybergis-scripts"
-=======
-=======
->>>>>>> 40eb7f615516fd432eab991eeb2ee4ee4a4c6b8c
 "microsoft/PowerToys",
 "ReactiveX/RxJava",
 "kdn251/interviews",
@@ -215,10 +153,6 @@ REPOS = [
 "onnx/onnx",
 "catchorg/Catch2",
 "facebook/folly"
-<<<<<<< HEAD
->>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
-=======
->>>>>>> 40eb7f615516fd432eab991eeb2ee4ee4a4c6b8c
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
