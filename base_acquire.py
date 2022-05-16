@@ -103,17 +103,17 @@ REPOS = [
 "CNS-OIST/a310_cns_2018",
 "rougier/Neurosciences",
 
-<<<<<<< HEAD
+
 "hyperledger-archives/education-cryptomoji",
 "DataONEorg/Education",
 "data-edu/data-science-in-education",
-=======
+
 "bitcoin/bitcoin",
 "hyperledger-archives/education-cryptomoji",
 "DataONEorg/Education",
 "data-edu/data-science-in-education",
 "tesseract-ocr/tesseract", 
->>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
+
 "AgoraIO-Usecase/eEducation",
 "WikiEducationFoundation/WikiEduDashboard",
 "puppetlabs/education-builds",
@@ -121,10 +121,9 @@ REPOS = [
 "microsoft/Web-Dev-For-Beginners",
 "jakemdrew/EducationDataNC",
 "shama/letswritecode",
-<<<<<<< HEAD
-=======
+
 "netdata/netdata",
->>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
+
 "CTFd/CTFd",
 "anton-liauchuk/educational-platform",
 "Akshima-Ghai/OneEducationalWebsiteForAll",
@@ -135,13 +134,13 @@ REPOS = [
 "zero-to-mastery/start-here-guidelines",
 "getify/Functional-Light-JS",
 "arschles/go-in-5-minutes",
-<<<<<<< HEAD
+
 "microsoft/CyberBattleSim",
 "mitre-attack/car",
 "eth0izzle/bucket-stream", 
 "cybercommons/cybercom-cookiecutter",
 "state-hiu/cybergis-scripts",
-=======
+
 "microsoft/PowerToys",
 "ReactiveX/RxJava",
 "kdn251/interviews",
@@ -169,7 +168,7 @@ REPOS = [
 "onnx/onnx",
 "catchorg/Catch2",
 "facebook/folly"
->>>>>>> 8fcfa361ad78318822bf274ff20c5ce05e3ff544
+
 ]
 
 headers = {"Authorization": f"token {github_token}", "User-Agent": github_username}
