@@ -1,6 +1,9 @@
 <center><h1>Natural Language Processing - Github Programming Language Prediction</center>
     
 > - Google Slides: https://docs.google.com/presentation/d/1uqp20l36bEUZK94Rtpab25Aq80QhSghQ1nXXIlHlKcU/edit#slide=id.g12c040e4cd4_2_0
+    
+> - Final Report:
+https://github.com/codeup-nlp/nlp-project/blob/main/final_report.ipynb
 
 <a name ='toc'></a>
 # Table of Contents 
