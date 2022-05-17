@@ -1,4 +1,6 @@
 <center><h1>Natural Language Processing - Github Programming Language Prediction</center>
+    
+> - Google Slides: https://docs.google.com/presentation/d/1uqp20l36bEUZK94Rtpab25Aq80QhSghQ1nXXIlHlKcU/edit#slide=id.g12c040e4cd4_2_0
 
 <a name ='toc'></a>
 # Table of Contents 
@@ -171,7 +173,7 @@
 ## Project Delivery
 ✓ _Plan_ ➜ ✓ _Acquire_ ➜ ✓ _Prepare_ ➜ ✓ _Explore_ ➜ ✓ _Model_ ➜ 🟢 **Deliver**
 
-> - Google Slides: https://docs.google.com/presentation/d/1uqp20l36bEUZK94Rtpab25Aq80QhSghQ1nXXIlHlKcU/edit#slide=id.g12c040e4cd4_2_0
+
 
 <a name='conclusions_next_steps'></a>
 ### Conclusion and Next Steps
