@@ -145,3 +145,14 @@ def clean(text: str) -> list:
     return [wnl.lemmatize(word) for word in words if word not in stopwords]
 ### the line below is the proper way to call function needs to be tweaked for your needs
 # data['clean_text'] = data.readme_contents.apply(clean).apply(' '.join)
+
+def pi_chart_clean(text):
+    'A simple function to cleanup text data'
+    wnl = nltk.stem.WordNetLemmatizer()
+    stopwords = nltk.corpus.stopwords.words('english')
+    text = (unicodedata.normalize('NFKD', text)
+             .encode('ascii', 'ignore')
+             .decode('utf-8', 'ignore')
+             .lower())
+    words = re.sub(r'[^\w\s]', '', text).split()
+    return [wnl.lemmatize(word) for word in words if word not in stopwords]
