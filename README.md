@@ -143,32 +143,6 @@
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
 <hr style="border-top: 10px groove tan; margin-top: 1px; margin-bottom: 1px"></hr>
 
-<a name='hypothesis'></a>
-### Hypothesis Testing
-
-#### Hypothesis 1
-> - H<sub>0</sub>: The average message length of Javascript readme files == The average message length of all other readme files.
-> - H<sub>a</sub>: The average message length of Javascript readme files != The average message length of all other readme files.
-> - alpha: 0.05
-> - Since the p-value is less than 0.05, we reject the null hypothesis. The average message length of Javascript readme files is significantly different than the average message length of all other readme files.
-
-#### Hypothesis 2
-> - H<sub>0</sub>: The average compound sentiment analysis of Javascript readme files == The average compound sentiment analysis of all other readme files.
-> - H<sub>a</sub>: The average compound sentiment analysis of Javascript readme files != The average compound sentiment analysis of all other readme files.
-> - alpha = 0.05
-> - Since the p-value is less than alpha, we reject the null hypothesis. The average compound sentiment analysis score for Javascript readme files is significantly different than the average compound sentiment analysis score for all other readme files.
-
-#### Hypothesis 3
-> - H<sub>0</sub>: The average avg_word_len of Javascript readme files == The average avg_word_len of all other readme files.
-> - H<sub>a</sub>: The average avg_word_len of Javascript readme files != The average avg_word_len of all other readme files.
-> - alpha = 0.05
-> - Since the p-value is less than 0.05, we reject the null hypothesis. The average avg_word_len for Javascript readme files is significantly different than the average avg_word_len of all other readme files.
-
-#### Hypothesis 4
-> - H<sub>0</sub>: The average word_count of Javascript readme files == The average word_count of all other readme files.
-> - H<sub>a</sub>: The average word_count of Javascript readme files != The average word_count of all other readme files.
-> - alpha = 0.05
-> - Since the p-value is less than 0.05, we reject the null hypothesis. The average word_count for Javascript readme files is significantly different than the average word_count of all other readme files.
 
 <a name='modeling'></a>
 ## Modeling & Evaluation
