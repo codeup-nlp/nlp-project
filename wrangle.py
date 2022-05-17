@@ -132,12 +132,16 @@ def remove_url(instr):
 
 def clean(text: str) -> list:
     'A simple function to cleanup text data'
+    text = remove_url(text)
     wnl = nltk.stem.WordNetLemmatizer()
     stopwords = set(nltk.corpus.stopwords.words('english'))
     text = (text.encode('ascii', 'ignore')
              .decode('utf-8', 'ignore')
-             .lower())
-    words = re.sub(r'[^\w\s]', '', text).split() # tokenization
+             .lower()
+           )
+    words = re.sub(r'[^\w\s]', '', text).split() 
+    
+    # tokenization
     return [wnl.lemmatize(word) for word in words if word not in stopwords]
 ### the line below is the proper way to call function needs to be tweaked for your needs
 # data['clean_text'] = data.readme_contents.apply(clean).apply(' '.join)
