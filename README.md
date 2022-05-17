@@ -171,10 +171,14 @@
 ## Project Delivery
 ✓ _Plan_ ➜ ✓ _Acquire_ ➜ ✓ _Prepare_ ➜ ✓ _Explore_ ➜ ✓ _Model_ ➜ 🟢 **Deliver**
 
+> - Google Slides: https://docs.google.com/presentation/d/1uqp20l36bEUZK94Rtpab25Aq80QhSghQ1nXXIlHlKcU/edit#slide=id.g12c040e4cd4_2_0
+
 <a name='conclusions_next_steps'></a>
 ### Conclusion and Next Steps
-> - 
-> - 
+> - Acquire a larger random sample of github repositories for increased accuracy on model
+> - Identify different features to further access README file
+    - graphic or visualization in the README
+    - Coding example in the README
 
 <a name='replication'></a>
 ### Project Replication
