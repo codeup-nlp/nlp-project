@@ -123,6 +123,13 @@ def prep_article_data(df, column, extra_words=[], exclude_words=[]):
     
     return df[['language', column,'clean', 'stemmed', 'lemmatized']]
 
+def remove_url(instr):
+    '''
+    This removes urls from readme's
+    '''
+    instr = ' '.join([text for text in instr.split() if re.search(r'https?://', text) is None])
+    return instr
+
 def clean(text: str) -> list:
     'A simple function to cleanup text data'
     wnl = nltk.stem.WordNetLemmatizer()
