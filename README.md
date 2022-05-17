@@ -60,7 +60,7 @@
 
 <a name='exe_sum'></a>
 ## Executive Summary
-> - 30,000 repository README files were scraped from Github.
+> - 125 repository README files were scraped from Github.
 > - Javascript files were analyzed and compared against all other README files.
 > - Our model performed well, identifying Javascript repositories with an accuracy of over 94.8%.
 
