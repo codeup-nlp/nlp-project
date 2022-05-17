@@ -62,7 +62,7 @@
 ## Executive Summary
 > - 125 repository README files were scraped from Github.
 > - Javascript files were analyzed and compared against all other README files.
-> - Our model performed well, identifying Javascript repositories with an accuracy of over 94.8%.
+> - Our model performed well, identifying Javascript, HTML, C++, Python, and Jupyter Notebook repositories with an accuracy of over 46%.
 
 <a name='goals'></a>
 ### Goals
